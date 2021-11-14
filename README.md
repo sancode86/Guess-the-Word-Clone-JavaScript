@@ -15,5 +15,5 @@ Clone of the classic game "Guess the word"!
 
 Coded in JavaScript, old project !
 
-![Scene](https://raw.githubusercontent.com/sancode86/Guess-the-Word-Clone-JavaScript/master/gif.gif)
+![Scene](https://github.com/sancode86/Guess-the-Word-Clone-JavaScript/blob/master/gif.gif?raw=true)
 
