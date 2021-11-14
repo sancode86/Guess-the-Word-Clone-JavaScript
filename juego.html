@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adivina La Palabra</title>
+    <script src="adivinanzas.js"></script>
+    <script src="sonidos.js"></script>
+    <script src="tiempo.js"></script>
+    <script src="frases.js"></script>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="animate.css">
+    <link rel="stylesheet" href="fondo.css">
+</head>
+<body id="bodyId">
+    <div class="centrarContenido" id="contenidoId">
+        <div class="fondoParaInfoDelJugador sombrita"></div>
+        <img src="imagenes/coin.png" class="coin">
+        <img src="imagenes/clock.png" class="clock">
+        <p id="segundos" class="segundos"></p>
+        <p id="mostrarDineroTexto" class="dinero"></p>
+        <p id="nivelId" onclick="truco();" class="nivel  animate__animated animate__heartBeat"></p>
+        <div class="contenedorPregunta sombrita" id="contenedorPregunta">
+            <p id="preguntaId"></p>
+        </div>
+        <p id="respuestaId"></p>
+        <div class="casillerosRespuestaContenedor sombrita" id="casillerosRespuestaId"></div>
+        <div class="letrasRespuestaContenedor sombrita" id="letrasRespuestaId"></div>
+
+        <p id="trucoId" class="nivel"></p>
+
+        <div class="stickerFooter">
+            <div class="precioPista sombrita" id="precioPistaContenedor"><p id="precioPista">&nbsp; Gratis &nbsp;</p></div>
+            <div class="precioSacarLetras sombrita" id="precioSacarLetras"><p id="precioPista">&nbsp; $50 &nbsp;</p></div>
+            <button id="botonPista" class="botonSticker" onclick="mostrarPista()">Pista</button>
+            <button id="botonPistaLetras" class="botonsacarFalsas" onclick="sacarFalsas()">Sacar falsas</button>
+            <button class="configuracionBoton" onclick="opciones()"></button>
+        </div>
+    </div>
+
+    <div class="centrarContenido" id="ganasteId" style="display: none;">
+        <br>
+      
+        <h1 class="animate__animated animate__bounceIn textoGanar" >¡Nivel Completado!</h1>
+        <h1 class="animate__animated animate__bounceIn textoGanar textoGanarfrase" id="textoGanarFrase"></h1>
+        <img src="imagenes/coins.png" class="imagenGanarNivel animate__animated animate__heartBeat animate__delay-1s">
+        <br>
+        <p id="tiempoTotal" class="nivel  animate__animated animate__heartBeat"></p>
+        <p id="bonusTexto" class="nivel  animate__animated animate__heartBeat"></p>    
+        <p id="dineroGanado" class="nivel  animate__animated animate__heartBeat"></p>     
+        <br>
+        <button onclick=" botonSiguienteNivelGanar();" class="botoniguientenivel">Siguiente Nivel</button>
+    </div>
+
+    <div class="area" >
+        <ul class="circles">
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+        </ul>
+    </div>
+
+</body>
+</html>
+<script src="script.js"></script>
