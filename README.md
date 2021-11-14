@@ -1,8 +1,8 @@
 ﻿# Guess the Word Clone - JavaScript (Spanish)
 
-![Guess the Word Clone image](https://raw.githubusercontent.com/sancode86/Guess-the-Word-Clone-JavaScript/master/guess.png?token=AVS567D7UYBXFW6YCY73R3DBSB64O)
+Clone of the classic game "Guess the word"! 
 
-Clone of the classic game "Guess the word"!
+![Guess the Word Clone image](https://raw.githubusercontent.com/sancode86/Guess-the-Word-Clone-JavaScript/master/guess.png?token=AVS567D7UYBXFW6YCY73R3DBSB64O)
 
 ## Features
 
@@ -12,6 +12,7 @@ Clone of the classic game "Guess the word"!
 - Hint/Clue
 - Discard false letters
 - Animations
+- +250 questions 
 
 Coded in JavaScript, old project !
 
